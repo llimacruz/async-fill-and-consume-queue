@@ -1,0 +1,18 @@
+{
+  "name": "async-from-hell",
+  "version": "1.0.0",
+  "description": "Feed and consume a list asyncronously",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "llimacruz",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/llimacruz/async-queue-processor"
+  },
+  "dependencies": {
+    "async": "^2.4.1"
+  }
+}
