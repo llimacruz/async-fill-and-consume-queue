@@ -5,7 +5,10 @@ usersReader.initProcess((err, users) => {
   if (err) {
     console.log('não foi possível ler')
   }
-  queueProcessor.fillQueue(users, () => {
+  queueProcessor(users, () => {
     console.log('fim da coisa')
   });
+  // queueProcessor.fillQueue(users, () => {
+  //   console.log('fim da coisa')
+  // });
 });
